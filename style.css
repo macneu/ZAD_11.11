@@ -2,7 +2,7 @@ main {
     background: rgb(232,11,11);
     background: linear-gradient(90deg, rgba(232,11,11,1) 0%, rgba(255,255,255,1) 62%);
     width: 96%;
-    height: 120vh;
+    height: 130vh;
     margin: 2%;
     box-shadow: 0 0 20px black;
     border: 5px solid black;
