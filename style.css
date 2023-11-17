@@ -1,0 +1,66 @@
+main {
+    background: rgb(232,11,11);
+    background: linear-gradient(90deg, rgba(232,11,11,1) 0%, rgba(255,255,255,1) 62%);
+    width: 96%;
+    height: 120vh;
+    margin: 2%;
+    box-shadow: 0 0 20px black;
+    border: 5px solid black;
+}
+
+.title {
+    width: 96%;
+    height: 20vh;
+    padding: 2%;
+    position: relative;
+}
+
+.title > h1 {
+    position: absolute;
+    top:-100%;
+    right: 0;
+    font-size: 20em;
+    font-weight: 800;
+    float: right;
+}
+
+.title > p {
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.title > h3 {
+    text-align: center;
+    top:90%;
+    right: 2%;
+    font-size: 3em;
+    position: absolute;
+}
+
+.photo{
+    width: 70%;
+}
+
+.photo img{
+    width: 30%;
+    height: 40%;
+}
+
+.text {
+    padding: 2%;
+    text-align: justify;
+    margin-top: 10%;
+    width: 30%;
+}
+
+.content {
+    display: flex;
+}
+
+iframe {
+    position: absolute;
+    bottom: -20%;
+    left: 15%;
+    margin: 0 3% 3% 3%;
+}
